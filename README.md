@@ -112,16 +112,16 @@ To evaluate the quality of clusters, the Silhouette Score is used:
 
 $$Silhouette = \frac{b - a}{\max(a, b)}$$
 
- = mean intra-cluster distance (cohesion)
+a = mean intra-cluster distance (cohesion)
 
- = mean nearest-cluster distance (separation)
+ b= mean nearest-cluster distance (separation)
 
 
 Metric	Scratch Implementation	Sklearn KMeans
 
-Silhouette Score	0.72	0.74
-Inertia (SSE)	1425.36	1401.52
-Iterations to Converge	8	6
+Silhouette Score	0.376	0.562
+Inertia (SSE)	2522.059	1366.469
+Iterations to Converge	4	3
 
 
 ✅ Both implementations yield almost identical results, validating the correctness of the scratch version.
@@ -241,4 +241,4 @@ Extend model with 3D visualization or interactive dashboard
 
 👤 Anshu Pandey
 🎯 Data Science & AI Enthusiast | Building ML Algorithms from Scratch | Microsoft Internship Aspirant
-🔗 GitHub | LinkedIn (add your links)
+🔗 GitHub | LinkedIn (www.linkedin.com/in/anshu-pandey-8a0ab0326)
